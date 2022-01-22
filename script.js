@@ -12,14 +12,14 @@ let songitem = Array.from(document.getElementsByClassName('songItem'));
 let songs = [
     { songName: "Dil Meri Na Sune", filePath: "songs/1.mp3", coverPath: "covers/1.jpg" },
     { songName: "Tera Fitoor", filePath: "songs/2.mp3", coverPath: "covers/2.jpg" },
-    { songName: "Tera Hone Laga Hoon", filePath: "songs/3.mp3", coverPath: "covers/3.jpg" },
+    { songName: "Hone Laga Hoon", filePath: "songs/3.mp3", coverPath: "covers/3.jpg" },
     { songName: "Pehli Nazar Mein ", filePath: "songs/4.mp3", coverPath: "covers/4.jpg" },
     { songName: "Piyo O Re Piyo", filePath: "songs/5.mp3", coverPath: "covers/5.jpg" },
-    { songName: "Salam e ishq", filePath: "songs/6.mp3", coverPath: "covers/6.jpg" },
-    { songName: "Salam e ishq", filePath: "songs/7.mp3", coverPath: "covers/7.jpg" },
-    { songName: "Salam e ishq", filePath: "songs/8.mp3", coverPath: "covers/8.jpg" },
-    { songName: "Salam e ishq", filePath: "songs/9.mp3", coverPath: "covers/9.jpg" },
-    { songName: "Salam e ishq", filePath: "songs/10.mp3", coverPath: "covers/10.jpg" },
+    { songName: "Rang jo lagyo", filePath: "songs/6.mp3", coverPath: "covers/6.jpg" },
+    { songName: "Tere Sang Yaara", filePath: "songs/7.mp3", coverPath: "covers/7.jpg" },
+    { songName: "Tu Chahiye", filePath: "songs/8.mp3", coverPath: "covers/8.jpg" },
+    { songName: "Gulabi Aankhein", filePath: "songs/9.mp3", coverPath: "covers/9.jpg" },
+    { songName: "Jaane De", filePath: "songs/10.mp3", coverPath: "covers/10.jpg" },
 ]
 songitem.forEach((element, i) => {
     element.getElementsByTagName("img")[0].src = songs[i].coverPath;
